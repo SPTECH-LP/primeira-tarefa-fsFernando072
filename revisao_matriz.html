@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Revisão Matriz </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <section class="container centralizar">
+            <h1 class="titulo"> Revisão Matriz </h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="container centralizar">
+            <table></table>
+
+            <button onclick="exibirMatriz()"> Exibir Matriz </button>
+
+            <input type="number" name="ipt_linha" id="ipt_linha" placeholder="Digite a linha">
+            <input type="number" name="ipt_coluna" id="ipt_coluna" placeholder="Digite a coluna">
+
+            <button onclick="consultarMatriz()"> Consultar </button>
+            <button onclick="somaLinhaMatriz()"> Soma Linhas </button>
+            <button onclick="somaColunaMatriz()"> Soma Colunas </button>
+
+            <section id="resposta"></section>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container centralizar">
+            <p> &copy; Fernando - 2025 </p>
+        </section>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>
